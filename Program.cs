@@ -14,6 +14,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/hello", () => "Hello Pipeline");
+app.MapGet("/hello", () => "Hello Pipeline ,Leandro");
 
 app.Run();
